@@ -3,9 +3,9 @@ layout: default
 title: DoIT website
 projecturl: http://it.stonybrook.edu
 projectcta: Visit Site
-modal-id: 6
-date: 2014-07-15
-img: submarine.png
+modal-id: 100
+date: 2016-05-07
+img: doitsbu.png
 alt: image-alt
 project-date: June 2012 - Present
 client: Division of Information Technology - Stony Brook University

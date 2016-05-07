@@ -1,0 +1,17 @@
+---
+layout: default
+title: TwitterWall
+modal-id: 5
+date: 2016-04-01
+img: twitterwall.png
+alt: Twitter Wall
+project-date: January 2015 - Present
+client: TBA
+category: Drupal
+description: <p>TBA</p>
+gallery:
+  - title: twitter
+    url: cabin.png
+  - title: linkedin
+    url: game.png
+---

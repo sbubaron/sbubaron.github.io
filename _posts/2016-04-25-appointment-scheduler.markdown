@@ -2,8 +2,8 @@
 layout: default
 title: Appointment Scheduler
 modal-id: 1
-#date: 2014-07-15
-img: cabin.png
+date: 2016-04-25
+img: scheduler.png
 alt: Appointment Scheduler
 project-date: January 2015 - Present
 client: TBA

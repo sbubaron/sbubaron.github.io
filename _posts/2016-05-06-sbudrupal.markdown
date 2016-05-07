@@ -1,9 +1,9 @@
 ---
 layout: default
-title: ASASBU
+title: SBU Drupal Platform
 modal-id: 2
-#date: 2014-07-15
-img: game.png
+date: 2016-05-01
+img: asasbu.png
 alt: ASASBU
 project-date: January 2016 - Present
 client: TBA

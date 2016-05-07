@@ -2,9 +2,9 @@
 layout: default
 title: BlueTooth Context
 modal-id: 3
-date: 2014-07-15
-img: submarine.png
-alt: image-alt
+date: 2016-01-15
+img: btcontext.png
+alt: BT Context
 project-date:
 client: Self
 category: PHP, Tasker, Heroku

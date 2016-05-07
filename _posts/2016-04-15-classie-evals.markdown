@@ -2,8 +2,8 @@
 layout: default
 title: Classie Evals
 modal-id: 4
-#date: 2014-07-15
-img: safe.png
+date: 2016-04-15
+img: classie-evals.png
 alt: Classie Evals
 project-date: Sept 2014 - Present
 client: Teaching, Learning + Technology and The Faculty Center
