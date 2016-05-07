@@ -1,0 +1,14 @@
+---
+layout: default
+title: DoIT website
+projecturl: http://it.stonybrook.edu
+projectcta: Visit Site
+modal-id: 6
+date: 2014-07-15
+img: submarine.png
+alt: image-alt
+project-date: June 2012 - Present
+client: Division of Information Technology - Stony Brook University
+category: Drupal, SOLR, Vagrant
+description: <p>My first experience with using Drupal. The project merged three existing sites and platforms under one roof with the goal of making it easier to keep content fresh and accessible.</p><p>Since launching in October 2012, the site has gone through several major design and functional revisions. Most recently we have leveraged the Paragraphs module to deliver modern web experiences while making it easy for our content contributors.</p><p>The site is hosted on our Acquia platform and utilizes also uses the SOLR Search service. We have recently added a DrupalVM based vagrant profile so help maintain a consistent, clean local developer environment. The site exposes system status and alert messages through JSON endpoints which are then consumed on Portal landing pages like SOLAR and an IFTTT social media integration. </p>
+---
