@@ -1,17 +1,16 @@
 ---
 layout: default
-title: TwitterWall
+title: Twitter Wall
 modal-id: 5
 date: 2016-04-01
 img: twitterwall.png
-alt: Twitter Wall
-project-date: January 2015 - Present
-client: TBA
-category: Drupal
-description: <p>TBA</p>
-gallery:
-  - title: twitter
-    url: cabin.png
-  - title: linkedin
-    url: game.png
+project-date: March 2016
+client: Faculty Center
+category: Twitter, PHP, JSON
+description: <p>The Twitter wall was a quick project designed to assist with generating social buzz across our hashtags during events and conferences. It polls twitter every minute for the latest tweets and adds them to a rotating gallery which can be projected during keynotes, lunch or on displays located around the conferencee.</p>
+#gallery:
+#  - title: twitter
+#    url: cabin.png
+#  - title: linkedin
+#    url: game.png
 ---
