@@ -1404,7 +1404,7 @@ a {
   /* line 52, /Users/rich/git/php-apps/likick/theme/source/scss/lib/bootstrap/bootstrap/_scaffolding.scss */
   a:hover, a:focus {
     color: #990000;
-    text-decoration: underline; }
+    text-decoration: none; }
   /* line 58, /Users/rich/git/php-apps/likick/theme/source/scss/lib/bootstrap/bootstrap/_scaffolding.scss */
   a:focus {
     outline: 5px auto -webkit-focus-ring-color;
@@ -3872,7 +3872,7 @@ fieldset[disabled] a.btn {
   /* line 115, /Users/rich/git/php-apps/likick/theme/source/scss/lib/bootstrap/bootstrap/_buttons.scss */
   .btn-link:hover, .btn-link:focus {
     color: #990000;
-    text-decoration: underline;
+    text-decoration: none;
     background-color: transparent; }
   /* line 123, /Users/rich/git/php-apps/likick/theme/source/scss/lib/bootstrap/bootstrap/_buttons.scss */
   .btn-link[disabled]:hover, .btn-link[disabled]:focus,
@@ -10725,6 +10725,10 @@ h2.leadin {
   max-width: 100%;
   height: auto; }
 
+/* line 3, /Users/rich/git/php-apps/likick/theme/source/scss/molecules/_molecules-base.scss */
+.mailinglist .interests label {
+  margin-right: 1em; }
+
 /* line 1, /Users/rich/git/php-apps/likick/theme/source/scss/organisms/jumbotron/_jumbotron.scss */
 .home .hero {
   background-image: url("/theme/dist/images/likickheader.jpg");
@@ -10764,18 +10768,113 @@ h2.leadin {
 
 /* line 1, /Users/rich/git/php-apps/likick/theme/source/scss/organisms/navbar/_navbar.scss */
 .navbar {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  border-radius: 0; }
 
-/* line 5, /Users/rich/git/php-apps/likick/theme/source/scss/organisms/navbar/_navbar.scss */
+/* line 6, /Users/rich/git/php-apps/likick/theme/source/scss/organisms/navbar/_navbar.scss */
 .navbar-brand {
   padding-top: 0px; }
-  /* line 8, /Users/rich/git/php-apps/likick/theme/source/scss/organisms/navbar/_navbar.scss */
+  /* line 9, /Users/rich/git/php-apps/likick/theme/source/scss/organisms/navbar/_navbar.scss */
   .navbar-brand img {
     width: 60px;
     height: auto; }
 
-/* line 1, /Users/rich/git/php-apps/likick/theme/source/scss/organisms/footer/_footer.scss */
-.footer {
-  background-color: #000;
-  padding: 6em 0;
+/* line 15, /Users/rich/git/php-apps/likick/theme/source/scss/organisms/navbar/_navbar.scss */
+.navbar-inverse .navbar-primary-links.navbar-nav > li > a {
+  font-weight: 700;
   color: #fff; }
+
+/* line 20, /Users/rich/git/php-apps/likick/theme/source/scss/organisms/navbar/_navbar.scss */
+.navbar-primary-links li a:hover, .navbar-primary-links li a:focus {
+  text-decoration: underline; }
+
+/* line 2, /Users/rich/git/php-apps/likick/theme/source/scss/organisms/footer/_footer.scss */
+.footer-top {
+  padding: 6em 0;
+  color: #fff;
+  background-image: url("/theme/dist/images/patterns/ball2.png");
+  background-repeat: repeat;
+  background-color: #c31d33; }
+
+/* line 14, /Users/rich/git/php-apps/likick/theme/source/scss/organisms/footer/_footer.scss */
+.footer-top a {
+  color: #fff; }
+
+/* line 18, /Users/rich/git/php-apps/likick/theme/source/scss/organisms/footer/_footer.scss */
+.footer-bottom {
+  background-color: #000;
+  padding: 3em 0;
+  color: #fff; }
+
+/* line 25, /Users/rich/git/php-apps/likick/theme/source/scss/organisms/footer/_footer.scss */
+.footer-bottom a {
+  color: #fff; }
+
+/* line 30, /Users/rich/git/php-apps/likick/theme/source/scss/organisms/footer/_footer.scss */
+.footer-bottom .social-icons a {
+  margin-right: 1em;
+  display: inline-block; }
+
+/* line 38, /Users/rich/git/php-apps/likick/theme/source/scss/organisms/footer/_footer.scss */
+.title-widget {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1;
+  position: relative;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 25px;
+  margin-left: 0;
+  padding-left: 28px; }
+
+/* line 52, /Users/rich/git/php-apps/likick/theme/source/scss/organisms/footer/_footer.scss */
+.title-widget::before {
+  background-color: #fff;
+  content: "";
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: -2px;
+  width: 5px; }
+
+/* line 64, /Users/rich/git/php-apps/likick/theme/source/scss/organisms/footer/_footer.scss */
+.widget_nav_menu ul {
+  list-style: outside none none;
+  padding-left: 0; }
+
+/* line 69, /Users/rich/git/php-apps/likick/theme/source/scss/organisms/footer/_footer.scss */
+.widget_archive ul li {
+  background-color: rgba(0, 0, 0, 0.3);
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  width: 3px; }
+
+/* line 80, /Users/rich/git/php-apps/likick/theme/source/scss/organisms/footer/_footer.scss */
+.widget_nav_menu ul li {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  position: relative;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  margin-bottom: 7px;
+  padding-bottom: 7px;
+  width: 95%; }
+
+/* line 93, /Users/rich/git/php-apps/likick/theme/source/scss/organisms/footer/_footer.scss */
+.widget_nav_menu ul li a {
+  color: #fff; }
+
+/* line 99, /Users/rich/git/php-apps/likick/theme/source/scss/organisms/footer/_footer.scss */
+.title-median {
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 0 0 15px;
+  text-transform: uppercase;
+  font-family: 'Fjalla One', sans-serif; }

@@ -8,11 +8,6 @@
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
-.fa,
-.glyphicon {
-  -moz-osx-font-smoothing: grayscale;
-}
-
 body,
 figure {
   margin: 0;
@@ -49,6 +44,11 @@ label {
 .navbar-fixed-top .navbar-collapse,
 .pre-scrollable {
   max-height: 340px;
+}
+
+.fa,
+.glyphicon {
+  -moz-osx-font-smoothing: grayscale;
 }
 
 html {
@@ -1409,15 +1409,11 @@ textarea {
   line-height: inherit;
 }
 
-a {
-  color: #900;
-  text-decoration: none;
-}
-
+a,
 a:focus,
 a:hover {
   color: #900;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:focus {
@@ -4260,7 +4256,7 @@ fieldset[disabled] .btn-link {
 .btn-link:focus,
 .btn-link:hover {
   color: #900;
-  text-decoration: underline;
+  text-decoration: none;
   background-color: transparent;
 }
 
@@ -7552,12 +7548,6 @@ h2.leadin {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
 }
 
-.bg-background,
-.home .hero {
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .carousel-control:focus,
 .carousel-control:hover {
   outline: 0;
@@ -8256,8 +8246,9 @@ body {
 }
 
 .bg-background,
-.footer,
 .home .hero {
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: #000;
 }
 
@@ -11296,6 +11287,12 @@ body {
   clip: auto;
 }
 
+.home .hero,
+.title-widget {
+  position: relative;
+  color: #fff;
+}
+
 .leadin {
   line-height: 1.5em;
 }
@@ -11315,6 +11312,10 @@ h2.leadin {
   height: auto;
 }
 
+.mailinglist .interests label {
+  margin-right: 1em;
+}
+
 .home .hero {
   background-image: url(/theme/dist/images/likickheader.jpg);
   padding: 7em 0;
@@ -11323,10 +11324,8 @@ h2.leadin {
   background-position: 50% 50%;
   display: block;
   font-size: 18px;
-  color: #fff;
   overflow-x: hidden;
   overflow-y: hidden;
-  position: relative;
   width: 100%;
 }
 
@@ -11353,6 +11352,7 @@ h2.leadin {
 
 .navbar {
   margin-bottom: 0;
+  border-radius: 0;
 }
 
 .navbar-brand {
@@ -11364,7 +11364,101 @@ h2.leadin {
   height: auto;
 }
 
-.footer {
+.navbar-inverse .navbar-primary-links.navbar-nav>li>a {
+  font-weight: 700;
+  color: #fff;
+}
+
+.navbar-primary-links li a:focus,
+.navbar-primary-links li a:hover {
+  text-decoration: underline;
+}
+
+.footer-top {
   padding: 6em 0;
   color: #fff;
+  background-image: url(/theme/dist/images/patterns/ball2.png);
+  background-repeat: repeat;
+  background-color: #c31d33;
+}
+
+.footer-top a {
+  color: #fff;
+}
+
+.footer-bottom {
+  background-color: #000;
+  padding: 3em 0;
+  color: #fff;
+}
+
+.footer-bottom a {
+  color: #fff;
+}
+
+.footer-bottom .social-icons a {
+  margin-right: 1em;
+  display: inline-block;
+}
+
+.title-widget {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1;
+  text-transform: uppercase;
+  padding-left: 28px;
+  margin: 0 0 25px;
+}
+
+.title-median,
+.widget_nav_menu ul li {
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.title-widget::before,
+.widget_archive ul li {
+  content: "";
+  left: 0;
+  position: absolute;
+}
+
+.title-widget::before {
+  background-color: #fff;
+  height: 22px;
+  top: -2px;
+  width: 5px;
+}
+
+.widget_nav_menu ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.widget_archive ul li {
+  background-color: rgba(0,0,0,.3);
+  height: 3px;
+  top: 7px;
+  width: 3px;
+}
+
+.widget_nav_menu ul li {
+  font-size: 13px;
+  font-weight: 700;
+  position: relative;
+  border-bottom: 1px solid rgba(255,255,255,.05);
+  margin-bottom: 7px;
+  padding-bottom: 7px;
+  width: 95%;
+}
+
+.widget_nav_menu ul li a {
+  color: #fff;
+}
+
+.title-median {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 0 15px;
+  font-family: 'Fjalla One',sans-serif;
 }
