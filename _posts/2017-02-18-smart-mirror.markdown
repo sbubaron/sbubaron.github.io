@@ -5,7 +5,7 @@ projecturl: https://docs.google.com/presentation/d/1kX7fwpK6SslJrMAwv_ET0TerrErW
 projectcta: View Presentation
 modal-id: 300
 date: 2017-02-18
-img: smart-mirror.png
+img: smart-mirror.PNG
 alt: Who's the Smartest [Mirror] of Them All?
 project-date: Feb 2017
 client: Hack@CeWIT
